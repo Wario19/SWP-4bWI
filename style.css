@@ -7,3 +7,7 @@ div{
 .subtitle{
     color: blue;
 }
+
+#text p{
+    background-color: blueviolet;
+}

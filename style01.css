@@ -1,0 +1,43 @@
+.blau{
+background-color: blue;
+height: 400px;
+width: 200px;
+margin-top: 40px;
+margin-left: 40px;
+border: solid;
+position: absolute;
+}
+.gruen1{
+background-color: green;
+height: 40px;
+width: 40px;
+position: absolute;
+right: 0;
+bottom: 0;
+border: solid;
+}
+.schwarz{
+background-color: black;
+height: 40px;
+width: 40px;
+position: relative;
+right: 20px;
+bottom: 20px;
+border: solid;
+}
+.flexbox{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid;
+    position: absolute;
+    bottom: 30%;
+    width: 100%;
+}
+.flexgruen{
+    background-color: green;
+    width: 40px;
+    height: 20px;
+    border: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
