@@ -1,0 +1,61 @@
+.flexbox {
+    display: flex;
+    height: 75%;
+    width: 100%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.gruen:first-child, .gruen:first-child > .gruen2 {
+    border: 1px solid black;
+    background-color: green;
+}
+
+.gruen {
+    margin: 50px;
+    border: 1px solid green;
+    width: 200px;
+    height: 250px;
+    box-sizing: border-box;
+}
+
+.gruen2 {
+    border: 1px solid green;
+    height: 70px;
+    width: 75px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.blau {
+    background-color: lightblue;
+    width: 20%;
+    aspect-ratio: 1/1; /* ensures that width = height source: https://stackoverflow.com/a/23640781 */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.schwarz {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+#schwarz1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#schwarz2 {
+    position: absolute;
+    bottom: 0;
+}
+
+#schwarz2 > div {
+    position: relative;
+    left: -50px;
+}
