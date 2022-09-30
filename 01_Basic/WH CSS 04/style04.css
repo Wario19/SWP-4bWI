@@ -1,0 +1,50 @@
+.flex{
+    display: flex;
+    border: solid;
+    justify-content: flex-end;
+    height: 75%;
+    margin: 50px;
+}
+.gruen{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    margin: 50px;
+    border: solid;
+    position: relative;
+}
+.orange{
+    height: 25px;
+    width: 25px;
+    background-color: orange;
+    border: solid;
+    position: absolute;
+    bottom: 0%;
+}
+.hblau{
+    position: absolute;
+    background-color: lightblue;
+    height: 400px;
+    width: 400px;
+    top: 0%;
+    left: 0%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: solid;
+}
+.dblau{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: solid;
+}
+.lila{
+    background-color: purple;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: -175%;
+    right: -175%;
+    border: solid;
+}
