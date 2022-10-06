@@ -1,15 +1,69 @@
 .menue1{
-    border: solid;
+    height: 30px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .orflogo{
-    border: solid;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
 }
 .menue2{
-    border: solid;
+    height: 30px;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .bild{
-    border: solid;
 }
 .text{
-    border: solid;
+    width: 75%;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    align-items: center;
+    background-color: white;
+    top: -5.5em;
+}
+.img{
+    width: 100%;
+}
+.wrapper{
+    width: 65%;
+    margin-left: 120px;
+}
+.hellrot{
+    background-color: tomato;
+    height: 11px;
+    position: relative;
+    top: 100%;
+    border-bottom: solid 3px red;
+}
+.logo{
+    height: 85%;
+    margin-top: 5px;
+}
+.textlogo{
+    color: white;
+    font-size: 35px;
+}
+.header-list > li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header-list > img{
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 10px;
+    color: white;
 }
